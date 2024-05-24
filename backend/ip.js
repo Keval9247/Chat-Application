@@ -8,7 +8,6 @@ const ip = () => {
                 req.connection.remoteAddress ||
                 req.socket.remoteAddress ||
                 req.connection.socket.remoteAddress;
-
             if (ipString.indexOf(",") > -1) {
                 ipString = ipString.split(",");
                 returnIP = ipString[0];

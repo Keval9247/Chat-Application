@@ -15,7 +15,7 @@ export default function App() {
     e.preventDefault();
     socket.emit("message", { message, room });
     setMessage("");
-    setRoom("")
+    setRoom("");
   }
 
   useEffect(() => {

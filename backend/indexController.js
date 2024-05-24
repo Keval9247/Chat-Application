@@ -3,6 +3,7 @@ const indexController = () => {
         authentication: async (req, res) => {
             try {
                 const userName = req.body.username;
+                
                 if (!userName) return res.status(404).json({ message: "Please enter a username" });
                 return res.status(200).json({
                     data: userName,
