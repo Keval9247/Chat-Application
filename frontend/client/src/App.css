@@ -1,0 +1,85 @@
+body{
+  background-color: rgb(13, 29, 53);
+}
+.users{
+  list-style:none;
+  width:180px;
+  position : fixed;
+  height: 100%;
+  left:0;
+  padding: 0 10px;
+  margin: 0;
+  top: 0;
+  background-color: rgb(13, 29, 53);
+  color: #fff;
+}
+.users .user{
+  cursor:pointer;
+  padding: 5px 0px;
+}
+.my-id{
+  color: rgb(166, 166, 253);
+}
+.input{
+  position: fixed;
+  left: 200px;
+  bottom: 0;
+  height: 50px;
+  width: calc(100% - 200px);
+  background-color: rgb(13, 29, 53);
+}
+.input .message-input{
+  width: calc(100% - 100px);
+  height: 90%;
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+  border-radius:8px;
+  background-color: rgb(5, 14, 29);
+  border: none;
+  color: white;
+
+}
+.input .send-button{
+  height: 90%;
+  margin: 0 5px;
+  width: 60px;
+  border-radius:8px;
+  background-color: rgb(26, 57, 104);
+  color: #fff;
+  border: none;
+}
+.message-box{
+  width: calc(100% - 210px);
+  position: fixed;
+  left: 200px;
+  top:0;
+  height: calc(100% - 60px);
+  border: 1px solid rgb(5, 14, 29);
+  padding-left: 5px;
+  border-radius: 8px;
+  overflow: hidden;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(5, 50, 80) rgb(5, 14, 29);
+
+}
+.message-box::-webkit-scrollbar {
+  width: 11px;
+}
+
+.message-box::-webkit-scrollbar-track {
+  background: rgb(5, 50, 80);
+}
+.message-box::-webkit-scrollbar-thumb {
+  background-color: rgb(5, 50, 80) ;
+  border-radius: 8px;
+  border: 3px solid rgb(5, 14, 29);
+}
+.message{
+  padding: 10px;
+  border: 1px solid rgb(5, 14, 29);
+  border-radius:8px ;
+  color:#fff;
+  cursor:pointer;
+}
